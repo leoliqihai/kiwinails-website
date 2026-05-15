@@ -1,0 +1,32 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.key
+*-key.json
+
+# Build cruft
+*.pyc
+__pycache__/
+
+# Local notes (only kept outside the published folder anyway)
+TODO.md
+NOTES.md
+
+# Development image artifacts — NOT used on the public site,
+# only inputs to the AI enhancement pipeline. The published
+# site uses only assets/images/products/enhanced/ + site/ + warehouse/.
+assets/images/products/photos/
+assets/images/products/cleaned/
+assets/images/products/labels/
+.claude/
+
+# Local dev helpers
+serve.py

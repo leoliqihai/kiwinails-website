@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <defs>
+    <linearGradient id="steel" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="0.5" stop-color="#bfbfbf"/>
+      <stop offset="1" stop-color="#888"/>
+    </linearGradient>
+    <linearGradient id="bronze" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#d59b4e"/>
+      <stop offset="0.5" stop-color="#a76d2c"/>
+      <stop offset="1" stop-color="#6f4517"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#c63838"/>
+      <stop offset="1" stop-color="#7a1a1a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Loose Nail (Flat head wire nail) -->
+  <symbol id="ico-loose-nail" viewBox="0 0 400 200">
+    <ellipse cx="60" cy="100" rx="22" ry="22" fill="url(#steel)" stroke="#666" stroke-width="1"/>
+    <rect x="58" y="80" width="6" height="40" fill="#777"/>
+    <rect x="60" y="92" width="260" height="16" rx="3" fill="url(#steel)" stroke="#777" stroke-width="1"/>
+    <polygon points="320,92 320,108 360,100" fill="#444"/>
+    <line x1="80" y1="96" x2="310" y2="96" stroke="#555" stroke-width="0.5"/>
+    <line x1="80" y1="104" x2="310" y2="104" stroke="#555" stroke-width="0.5"/>
+  </symbol>
+
+  <!-- Collated Nail Strip -->
+  <symbol id="ico-collated" viewBox="0 0 400 200">
+    <g transform="rotate(-12 200 100)">
+      <rect x="40" y="60" width="320" height="22" fill="#e0c89a" stroke="#a48758" stroke-width="1"/>
+      <g fill="url(#steel)" stroke="#555" stroke-width="0.6">
+        <ellipse cx="60" cy="60" rx="10" ry="5"/>
+        <ellipse cx="90" cy="60" rx="10" ry="5"/>
+        <ellipse cx="120" cy="60" rx="10" ry="5"/>
+        <ellipse cx="150" cy="60" rx="10" ry="5"/>
+        <ellipse cx="180" cy="60" rx="10" ry="5"/>
+        <ellipse cx="210" cy="60" rx="10" ry="5"/>
+        <ellipse cx="240" cy="60" rx="10" ry="5"/>
+        <ellipse cx="270" cy="60" rx="10" ry="5"/>
+        <ellipse cx="300" cy="60" rx="10" ry="5"/>
+        <ellipse cx="330" cy="60" rx="10" ry="5"/>
+      </g>
+      <g fill="url(#red)" stroke="#5a1010" stroke-width="0.6">
+        <polygon points="50,82 70,82 60,140"/>
+        <polygon points="80,82 100,82 90,142"/>
+        <polygon points="110,82 130,82 120,144"/>
+        <polygon points="140,82 160,82 150,146"/>
+        <polygon points="170,82 190,82 180,148"/>
+        <polygon points="200,82 220,82 210,150"/>
+        <polygon points="230,82 250,82 240,152"/>
+        <polygon points="260,82 280,82 270,154"/>
+        <polygon points="290,82 310,82 300,156"/>
+        <polygon points="320,82 340,82 330,158"/>
+      </g>
+    </g>
+  </symbol>
+
+  <!-- Coil nail (curved strip) -->
+  <symbol id="ico-coil" viewBox="0 0 400 200">
+    <circle cx="200" cy="100" r="78" fill="none" stroke="#a48758" stroke-width="10"/>
+    <g fill="url(#steel)" stroke="#555" stroke-width="0.5">
+      <g id="cnail">
+        <rect x="195" y="22" width="10" height="35" rx="1"/>
+        <ellipse cx="200" cy="22" rx="9" ry="4"/>
+      </g>
+      <use href="#cnail" transform="rotate(30 200 100)"/>
+      <use href="#cnail" transform="rotate(60 200 100)"/>
+      <use href="#cnail" transform="rotate(90 200 100)"/>
+      <use href="#cnail" transform="rotate(120 200 100)"/>
+      <use href="#cnail" transform="rotate(150 200 100)"/>
+      <use href="#cnail" transform="rotate(180 200 100)"/>
+      <use href="#cnail" transform="rotate(210 200 100)"/>
+      <use href="#cnail" transform="rotate(240 200 100)"/>
+      <use href="#cnail" transform="rotate(270 200 100)"/>
+      <use href="#cnail" transform="rotate(300 200 100)"/>
+      <use href="#cnail" transform="rotate(330 200 100)"/>
+    </g>
+  </symbol>
+
+  <!-- Screw (Bugle / decking) -->
+  <symbol id="ico-screw" viewBox="0 0 400 200">
+    <ellipse cx="60" cy="100" rx="24" ry="22" fill="url(#steel)" stroke="#666" stroke-width="1"/>
+    <circle cx="60" cy="100" r="6" fill="#444"/>
+    <rect x="78" y="92" width="220" height="16" rx="2" fill="url(#steel)" stroke="#777" stroke-width="0.6"/>
+    <g stroke="#666" stroke-width="0.8" fill="none">
+      <path d="M80 96 L88 108 M88 96 L96 108 M96 96 L104 108 M104 96 L112 108 M112 96 L120 108 M120 96 L128 108 M128 96 L136 108 M136 96 L144 108 M144 96 L152 108 M152 96 L160 108 M160 96 L168 108 M168 96 L176 108 M176 96 L184 108 M184 96 L192 108 M192 96 L200 108 M200 96 L208 108 M208 96 L216 108 M216 96 L224 108 M224 96 L232 108 M232 96 L240 108 M240 96 L248 108 M248 96 L256 108 M256 96 L264 108 M264 96 L272 108 M272 96 L280 108"/>
+    </g>
+    <polygon points="298,92 298,108 340,100" fill="url(#steel)" stroke="#666"/>
+  </symbol>
+
+  <!-- Bolt (Hex head, threaded shank, nut) -->
+  <symbol id="ico-bolt" viewBox="0 0 400 200">
+    <polygon points="40,85 70,75 100,85 100,115 70,125 40,115" fill="url(#steel)" stroke="#666"/>
+    <polygon points="70,75 100,85 100,115 70,125" fill="#9e9e9e" stroke="#666"/>
+    <rect x="98" y="90" width="200" height="20" fill="url(#steel)" stroke="#666" stroke-width="0.6"/>
+    <g stroke="#666" stroke-width="0.7">
+      <line x1="120" y1="90" x2="120" y2="110"/>
+      <line x1="130" y1="90" x2="130" y2="110"/>
+      <line x1="140" y1="90" x2="140" y2="110"/>
+      <line x1="150" y1="90" x2="150" y2="110"/>
+      <line x1="160" y1="90" x2="160" y2="110"/>
+      <line x1="170" y1="90" x2="170" y2="110"/>
+      <line x1="180" y1="90" x2="180" y2="110"/>
+      <line x1="190" y1="90" x2="190" y2="110"/>
+      <line x1="200" y1="90" x2="200" y2="110"/>
+      <line x1="210" y1="90" x2="210" y2="110"/>
+      <line x1="220" y1="90" x2="220" y2="110"/>
+      <line x1="230" y1="90" x2="230" y2="110"/>
+      <line x1="240" y1="90" x2="240" y2="110"/>
+      <line x1="250" y1="90" x2="250" y2="110"/>
+      <line x1="260" y1="90" x2="260" y2="110"/>
+      <line x1="270" y1="90" x2="270" y2="110"/>
+      <line x1="280" y1="90" x2="280" y2="110"/>
+      <line x1="290" y1="90" x2="290" y2="110"/>
+    </g>
+    <polygon points="298,85 328,75 358,85 358,115 328,125 298,115" fill="url(#steel)" stroke="#666"/>
+  </symbol>
+
+  <!-- Hardware (Joist hanger / brace strap) -->
+  <symbol id="ico-hardware" viewBox="0 0 400 200">
+    <path d="M120 40 L120 60 L100 60 L100 140 L120 140 L120 160 L280 160 L280 140 L300 140 L300 60 L280 60 L280 40 Z"
+          fill="url(#steel)" stroke="#666" stroke-width="1.2"/>
+    <g fill="#1a1a1a">
+      <circle cx="135" cy="80" r="4"/>
+      <circle cx="170" cy="80" r="4"/>
+      <circle cx="205" cy="80" r="4"/>
+      <circle cx="240" cy="80" r="4"/>
+      <circle cx="265" cy="80" r="4"/>
+      <circle cx="135" cy="120" r="4"/>
+      <circle cx="170" cy="120" r="4"/>
+      <circle cx="205" cy="120" r="4"/>
+      <circle cx="240" cy="120" r="4"/>
+      <circle cx="265" cy="120" r="4"/>
+    </g>
+    <rect x="180" y="100" width="40" height="12" fill="#fff" stroke="#666"/>
+  </symbol>
+
+  <!-- Jolt head loose nail (sharper, narrower head) -->
+  <symbol id="ico-jolt" viewBox="0 0 400 200">
+    <ellipse cx="60" cy="100" rx="14" ry="14" fill="url(#steel)" stroke="#666" stroke-width="1"/>
+    <rect x="68" y="93" width="260" height="14" rx="2" fill="url(#steel)" stroke="#777" stroke-width="0.6"/>
+    <polygon points="328,93 328,107 372,100" fill="#444"/>
+  </symbol>
+
+  <!-- Generic small wrench icon for trade -->
+  <symbol id="ico-spanner" viewBox="0 0 64 64">
+    <path d="M40 8a16 16 0 0 0-13.6 24.4L8 50.8 13.2 56l18.4-18.4A16 16 0 1 0 40 8zm0 24a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" fill="#E87722"/>
+  </symbol>
+</svg>
