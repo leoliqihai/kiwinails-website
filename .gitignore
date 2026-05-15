@@ -23,10 +23,11 @@ NOTES.md
 # Development image artifacts — NOT used on the public site,
 # only inputs to the AI enhancement pipeline. The published
 # site uses only assets/images/products/enhanced/ + site/ + warehouse/.
-assets/images/products/photos/
 assets/images/products/cleaned/
 assets/images/products/labels/
 .claude/
 
 # Local dev helpers
 serve.py
+assets/images/products/styled/
+assets/images/products/enhanced/
